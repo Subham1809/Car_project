@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    
+</head>
+<body onload="slider()">
+    <div class="ELECTRONICS">
+<video autoplay loop muted plays-inline class="back-video">
+<source src="Transition.mp4" type="video/mp4">
+
+</video>
+ 
+ <nav>
+<img src="logo1.ico" class="logo">
+<ul>
+    <li><a href="#"> HOME</a></li>
+    <li><a href="#"> ABOUT</a></li>
+    <li><a href="#"> GALLERY</a></li>
+    <li><a href="#"> CONTACT US</a></li>
+    <li><a href="#"> FAQ</a></li>
+</ul>
+ 
+    </nav>
+    <div class="content">
+    <h1>Electronics Car</h1>
+    <a href="#">Explore</a>
+
+<form action="https:/www.google.com/search" method="get" class="search-bar">
+    <input type="text" placeholder="search anything" name="q">
+    <button type="submit"><img src="magnify.png"></button>
+</form>
+
+
+
+    </div>
+</div>
+
+
+<!-- Features -->
+<section id="Feature">
+    <div class="tittle-text">
+<p>FEATURES</p>
+<h1>Our Electronic Car</h1>
+</div>
+<div class="feature-box">
+    <div class="features">
+        <h1>Future Car GALLERY</h1>
+        <div class="features-desc">
+            <div class="feature-icon">
+                <i class="fa fa-shield" aria-hidden="true"></i>
+            </div>
+            <div class="feature-text">
+                <p>Tesla has been one of the most successful EV company/brand in the world, but others, including Mercedes Benz, Tata, MG, GM, Audi, Hyundai, Nissan, BMW, and Renault have also launched EVs, which are receiving customer demand in different markets. </p>
+            </div>
+        </div>
+        <h1>Pre Booking Online</h1>
+        <div class="features-desc">
+            <div class="feature-icon">
+                <i class="fa fa-phone-square" aria-hidden="true"></i>
+            </div>
+            <div class="feature-text">
+                <p>After placing your order, you can start preparing for your delivery day. Start by downloading the Tesla app and use it to confirm your registration and delivery location. These details are required to move forward. </p>
+            </div>
+        </div>
+        <h1>Affordable Cost</h1>
+        <div class="features-desc">
+            <div class="feature-icon">
+                <i class="fa fa-inr" ></i>
+            </div>
+            <div class="feature-text">
+                <p>Tesla is known for being a luxury automaker, with prices as high as $100,000 for some models. So what is the cheapest Tesla you can buy new? Currently, that’s the Model 3, which has a base price of $44,990. </p>
+            </div>
+        </div>
+    </div>
+    <div class="features-img">
+        <img src="car2.jpg">
+        
+ </div>
+</div>
+
+</section>
+
+<!-- profile -->
+<section id="profile">
+    <div class="text">
+        <p>LAMBORGHINI AVENTADOR</p>
+
+    </div>
+
+<div class="banner">
+    <div class="slider">
+        <img src="car4.jpg" id="slideImg">
+    </div>
+<div class="overlay">
+
+</div>
+
+</div>
+<script>
+var slideImg =document.getElementById("slideImg");
+
+var images = new Array(
+    "car5.jpg",
+    "car6.jpg",
+    "car7.jpg",
+    "car8.jpg",
+);
+var len =images.length;
+var i =0;
+
+function slider(){
+    if(i> len-1){
+        i=0;
+    }
+    slideImg.src =images[i];
+    i++;
+    setTimeout('slider()',3000);
+
+}
+
+</script>
+</section>
+
+<section>
+
+
+
+
+
+
+
+
+    
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">our programs</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="https://form.jotform.com/230214454608450">FAQ</a></li>
+                    <li><a href="https://form.jotform.com/230215139183449">shipping</a></li>
+                    <li><a href="https://form.jotform.com/230215133161439">returns</a></li>
+                    <li><a href="https://form.jotform.com/230214998011451">car registration</a></li>
+                    <li><a href="https://form.jotform.com/230215420708445">payment options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>online booking</h4>
+                <ul>
+                    <li><a href="https://www.tesla.com/">tesla</a></li>
+                    <li><a href="https://www.lamborghini.com/en-en">lamborghini</a></li>
+                    <li><a href="https://www.audi.in/in/web/en.html">audi</a></li>
+                    <li><a href="https://www.ferrari.com/en-IN">ferrari</a></li>
+                    <li><a href="https://www.bmw.in/en/index.html">BMW</a></li>
+                    <li><a href="https://www.ford.com/">Ford</a></li>
+                    
+                   
+                    
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="https://m.facebook.com/profile.php?id=100046115970213&_rdr"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/swarup.subham/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/subham-swarup-3bb49b217/"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.subhamswarup.2105@gmail.com"><i class="fab fa-google-plus"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+    
+    
+</body>
+</html>
