@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family:'Poppins',sans-serif ;
   }
+
   .ELECTRONICS{
     width: 100%;
     height: 100vh;
@@ -17,13 +18,13 @@
   }
   nav{
     width: 100%;
-     height: 40px;
+     height: 60px;
     line-height: 80px; 
     margin: auto;
     position: absolute;
     top: 0;
     left: 0;
-    padding:20px 8%;
+    padding:0 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,10 +39,14 @@
     top: 4%;
     left: 10%;
   }
+  nav ul{
+    display: flex;
+    list-style: none;
+  }
   nav ul li{
     list-style: none;
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 30px;
     font-weight: 600;
     
    
@@ -90,15 +95,16 @@ color: transparent;
     right: 0;
     bottom: 0;
     z-index: -1;
+    object-fit:cover;
   }
-@media ( min-aspect-ratio:16/9){
+@media screen and ( max-aspect-ratio:16/9){
     .back-video{
         width: 100%;
         height: auto;
     }
 }
 
-@media ( max-aspect-ratio:16/9){
+@media screen and ( max-aspect-ratio:16/9){
     .back-video{
         width: auto;
         height: 100%;
@@ -114,6 +120,7 @@ align-items: center;
 border-radius: 60px;
 padding: 10px 20px;
 backdrop-filter: blur(4px) saturate(180%);
+margin:30px auto;
 
 }
 
@@ -139,12 +146,13 @@ color: #cac7ff;
   height: 25px;
   background: #58629b;
   cursor: pointer;
+  margin-left: 10px;
   }
 
   /* features */
   #Feature{
     width: 100%;
-    padding-top: 75px ;
+    padding-top: 10% ;
     
 
   }
@@ -204,7 +212,7 @@ color: #cac7ff;
 
 }
 .features-img img{
-  width: 150%;
+  width: 100%;
   border-radius: 50px;
 } 
 
@@ -222,32 +230,32 @@ margin-bottom: 40px;
 
 }
 .feature-icon .fa{
-  width: 50px;
-  height: 50px;
-  font-size: 30px;
-  line-height: 50px;
+  width: 5%;
+  height: 5%;
+  font-size: 3vw;
+  line-height: 5%;
   border-radius: 8px;
   color:#009688;
   border: lpx solid #009688;
 
 }
 .feature-text p{
-  padding: 0 20px;
-text-align: initial;
+  padding: 0 2%;
+text-align: left;
 
 }
 @media screen and (max-width: 770px) {
   .tittle-text h1{
-    font-size: 35px;
+    font-size: 3.5vw;
   }
   }
   #profile{
     width: 100%;
-padding-top: 75px;
+padding-top: 7.5%;
   }
   .text{
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 6%;
     width:100%;
     height:100vh ;
     background-image: url(car3.jpg);
@@ -258,7 +266,7 @@ padding-top: 75px;
   }
   .text p{
     margin: auto;
-    font-size: 65px;
+    font-size: 6.5vw;
     background: black;
     font-weight: bold;
     position: relative;
@@ -397,14 +405,14 @@ background-color: #ffffff;
 }
 
 /* responsive */
-@media(max-width:767px){
+@media screen and (max-width:767px){
   .footer-col{
     width:50%;
     margin-bottom: 30px;
 
   }
 }
-@media(max-width:574px){
+@media screen and (max-width:574px){
   .footer-col{
     width:100%;
     
